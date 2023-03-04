@@ -14,7 +14,7 @@
   </head>
   <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid px-5">
         <button
           class="navbar-toggler"
@@ -28,7 +28,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="side-wrapper">
+          <div class="sider">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
@@ -44,20 +44,26 @@
             </ul>
           </div>
           <div class="navbar">
-            <a class="navbar-brand" href="#"
-              ><img src="icons/logo.png" width="144"
-            /></a>
+            <a class="navbar-brand" href="#">PREMGEAR</a>
           </div>
-          <div>
-            <a href="#"><img src="icons/search-icon.svg" alt="" /></a>
-            <a href="#"><img src="icons/favorite-icon.svg" alt="" /></a>
-            <a href="#"><img src="icons/account-icon.svg" alt="" /></a>
-            <a href="#"><img src="icons/shopping-bag-icon.svg" alt="" /></a>
+          <div class="sider">
+            <a href="#" class="nav-btns"
+              ><img width="28px" src="icons/search-icon.svg" alt=""
+            /></a>
+            <a href="#" class="nav-btns"
+              ><img width="28px" src="icons/favorite-icon.svg" alt=""
+            /></a>
+            <a href="#" class="nav-btns"
+              ><img width="28px" src="icons/account-icon.svg" alt=""
+            /></a>
+            <a href="#" class="nav-btns"
+              ><img width="28px" src="icons/shopping-bag-icon.svg" alt=""
+            /></a>
           </div>
         </div>
       </div>
     </nav>
-
+    <!--navbar end-->
     <div class="container-fluid bg-light py-5" id="frontpage-hero">
       <div class="row h-100 d-flex align-items-center justify-content-center">
         <div class="col text-center">
@@ -72,7 +78,20 @@
       <div class="row mt-5">
         <div class="row">
           <h2 class="text-uppercase text-center">New Arrivals</h2>
-          <p class="text-end"><a href="#">Shop new arrivals</a></p>
+          <p class="text-end">
+            <a href="#"
+              >Shop New Arrivals
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 96 960 960"
+                width="24"
+              >
+                <path
+                  d="m375 816-43-43 198-198-198-198 43-43 241 241-241 241Z"
+                /></svg
+            ></a>
+          </p>
         </div>
       </div>
       <div class="row">
@@ -172,7 +191,20 @@
       <div class="row mt-5">
         <div class="row">
           <h2 class="text-uppercase text-center">Journal</h2>
-          <p class="text-end"><a href="#">Explore more</a></p>
+          <p class="text-end">
+            <a href="#"
+              >Explore more
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 96 960 960"
+                width="24"
+              >
+                <path
+                  d="m375 816-43-43 198-198-198-198 43-43 241 241-241 241Z"
+                /></svg
+            ></a>
+          </p>
         </div>
       </div>
       <div class="row mt-5">
@@ -210,12 +242,7 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md-4 services">
-            <hr
-              class="light"
-              <img
-              src="icons/quality-icon.svg"
-              class="service-img"
-            />
+            <img src="icons/quality-icon.svg" class="service-img" />
             <h3>Quality</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -246,14 +273,6 @@
 
     <!-- Start Footer Section -->
 
-    <!-- <footer class="footer-section">
-      <div class="container relative">
-        <div class="row">
-
-        </div>
-      </div>
-    </footer> -->
-
     <footer>
       <section id="footer">
         <div class="container-fluid footer">
@@ -267,9 +286,7 @@
                   Get the latest style news and an exclusive 10% off on your
                   first order.
                 </p>
-                <div
-                  class="form__group field d-flex align-items-end"
-                >
+                <div class="form__group field d-flex align-items-end">
                   <input
                     type="input"
                     class="form__field"
@@ -279,7 +296,9 @@
                     required
                   />
                   <label for="name" class="form__label">Email</label>
-                  <a href="#" class="btn btn-outline-primary text-uppercase ms-3"
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary text-uppercase ms-3"
                     >Submit</a
                   >
                 </div>

@@ -1,5 +1,53 @@
+select {
+  /* Remove the border property */
+  border: none !important;
 
-.form-check{
+  /* Remove the background color */
+  background-color: transparent !important;
+
+  /* Remove the outline property */
+  outline: none !important;
+
+  /* Remove the box-shadow property */
+  box-shadow: none !important;
+
+  /* Remove the padding property */
+  padding: 0 !important;
+}
+
+.form-select,
+.form-select-wrapper {
+  width: 75px !important;
+  padding: 0 0 0 7px;
+}
+
+.form-filter {
+  cursor: pointer;
+}
+
+.form-select-wrapper:hover {
+  background: rgb(200, 200, 200);
+}
+
+.category-menu {
+  background-color: #f1f1f1;
+  /* height: 47px; */
+  margin: 0 0 34px 0;
+  height: 128px;
+}
+
+.sort-filter-row {
+  height: 60px;
+}
+
+.sider {
+  width: 225px;
+}
+
+.nav-btns {
+  margin: 0 10px;
+}
+.form-check {
   padding: 15px 0 0;
 }
 
@@ -4234,13 +4282,15 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  height: 64px;
+  position: sticky;
 }
+
 .navbar .container,
 .navbar .container-fluid,
 .navbar .container-sm,
@@ -4261,6 +4311,9 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  letter-spacing: 8px;
+  font-size: 28px;
+  font-weight: 400;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
