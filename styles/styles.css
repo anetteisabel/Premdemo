@@ -1,0 +1,179 @@
+ul.list-unstyled li {
+  margin-bottom: 16px;
+}
+
+select {
+  /* Remove the border property */
+  border: none !important;
+  border-width: 0px !important;
+
+  /* Remove the background color */
+  background-color: transparent !important;
+
+  /* Remove the outline property */
+  outline: none !important;
+
+  /* Remove the box-shadow property */
+  box-shadow: none !important;
+
+  /* Remove the padding property */
+  padding: 0 !important;
+}
+
+.form-select,
+.form-select-wrapper {
+  width: 75px !important;
+  padding: 0 0 0 7px;
+}
+
+.form-filter {
+  cursor: pointer;
+}
+
+.form-select-wrapper:hover {
+  background: rgb(200, 200, 200);
+}
+
+.category-menu {
+  background-color: #f1f1f1;
+  /* height: 47px; */
+  margin: 0 0 34px 0;
+  height: 128px;
+}
+
+.sort-filter-row {
+  height: 60px;
+}
+
+.sider {
+  width: 225px;
+}
+
+.nav-btns {
+  margin: 0 8px;
+}
+.form-check {
+  padding: 15px 0 0;
+}
+
+.footer-title {
+  height: 40px;
+  margin: 0 0 10px 0;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #3c3c3c;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #9b9b9b;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 400;
+  border-width: 1px;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #252525;
+  font-weight: 400;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+
+.form-control {
+  width: 306px;
+}
+
+.border-top {
+  border-color: #000000;
+  width: 100%;
+  margin: 50px 0 24px 0;
+}
+
+.footer h5 {
+  margin-bottom: 16px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  color: #000000;
+  padding-top: 2rem;
+  height: 587px;
+}
+
+#services {
+  padding: 80px 0;
+}
+
+.service-img {
+  width: 40px;
+  margin-top: 20px;
+}
+
+.services {
+  padding: 24px;
+}
+
+.services h3 {
+  padding: 5px;
+  margin-top: 23px;
+  margin-bottom: 28px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#frontpage-hero {
+  background: url(hero.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 650px !important;
+}
+
+.side-wrapper {
+  width: 280px;
+}
+
+.section-teaser {
+  min-height: 241px;
+  min-width: 282px;
+}
