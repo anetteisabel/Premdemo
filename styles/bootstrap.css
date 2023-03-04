@@ -142,18 +142,20 @@ footer {
 }
 
 .service-img {
-  width: 52px;
+  width: 40px;
   margin-top: 20px;
 }
 
 .services {
-  padding: 60px;
+  padding: 24px;
 }
 
 .services h3 {
   padding: 5px;
   margin-top: 23px;
   margin-bottom: 28px;
+  font-size: 20px;
+  font-weight:400;
 }
 
 #frontpage-hero {
