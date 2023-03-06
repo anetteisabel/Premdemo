@@ -1,3 +1,13 @@
+.social-icon-btns {
+  margin: 0 4px;
+}
+
+#large-product-photo {
+  background: url(../images/large_product_photo.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 569px !important;
+}
+
 ul.list-unstyled li {
   margin-bottom: 16px;
 }
@@ -53,7 +63,8 @@ select {
   margin: 0 8px;
 }
 .form-check {
-  padding: 15px 0 0;
+  padding: 15px 0 0 20px;
+  margin-left: 3px;ˇ
 }
 
 .footer-title {
