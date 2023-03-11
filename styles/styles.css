@@ -1,11 +1,23 @@
+.large-product-picture {
+  width: 475px;
+  height: 608px;
+}
+
+.small-product-picture {
+  width: 166px;
+  height: 140px;
+  margin-top: 16px;
+}
+
 .social-icon-btns {
   margin: 0 4px;
 }
 
-#large-product-photo {
-  background: url(../images/large_product_photo.jpeg) no-repeat center center;
+#product-hero {
+  background: url(../images/large-product-photo-2.jpeg) no-repeat center center;
   background-size: cover;
   height: 569px !important;
+  margin-top: 75px;
 }
 
 ul.list-unstyled li {
