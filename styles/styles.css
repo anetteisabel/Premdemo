@@ -1,22 +1,60 @@
-.color-pink
-{ background-color: pink;}
+.dropdown-menu.show {
+  display: flex;
+}
 
-.color-green
-{ background-color: #156D58;}
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
 
-.color-select span{
+.dropdown-menu li:first-child a {
+  font-weight: 400px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.dropdown-menu li .dropdown-item {
+  color: #000000;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 1440px;
+  height: 500px;
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-wrapper {
+  display: block;
+}
+
+.color-pink {
+  background-color: pink;
+}
+
+.color-green {
+  background-color: #156d58;
+}
+
+.color-select span {
   padding: 6px 12px;
   margin: 0px 2px;
 }
 
 .color-select.color-active {
-border-width: 2px;
+  border-width: 2px;
 }
 
 .accordion-button:not(.collapsed) {
-    color: black;
-    background-color: transparent;
-    box-shadow: none;
+  color: black;
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .accordion-item {
@@ -24,9 +62,8 @@ border-width: 2px;
 }
 
 .accordion-header {
-border-top: 1px solid grey;
-border-bottom: 1px solid grey;
-
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .large-product-picture {
@@ -107,7 +144,7 @@ select {
 }
 .form-check {
   padding: 15px 0 0 20px;
-  margin-left: 3px;ˇ
+  margin-left: 3px;
 }
 
 .footer-title {
