@@ -74,7 +74,7 @@
 
     <!--back to category page button start-->
 
-    <div class="container-fluid mx-5">
+    <div class="container-fluid mx-5 mb-3">
       <div class="row mt-5">
         <div class="row">
           <p class="text-end d-flex align-items-center">
@@ -184,9 +184,9 @@
         </style>
         <!--large product picture end-->
 
-        <!--product details start-->
+        <!--product description start-->
 
-        <div class="col-5">
+        <div class="col-5 ms-5">
           <h1 class="font-weight-normal" style="font-size: 24px">
             Product name
           </h1>
@@ -195,6 +195,16 @@
           </h2>
           <p>123€</p>
           <p class="text-uppercase font-weight-light">Color</p>
+          <p>
+            <button class="btn btn-outline-secondary px-0 py-2 color-select">
+              <span class="color-pink">&nbsp;</span>
+            </button>
+            <button
+              class="btn btn-outline-secondary px-0 py-2 color-select color-active"
+            >
+              <span class="color-green">&nbsp;</span>
+            </button>
+          </p>
           <p class="text-uppercase font-weight-light">Size</p>
           <p>
             <button class="btn btn-outline-secondary">XS</button>
@@ -203,28 +213,38 @@
             <button class="btn btn-outline-secondary">L</button>
             <button class="btn btn-outline-secondary">XL</button>
           </p>
-          <a href="#" class="btn btn-primary text-uppercase my-5"
+          <a href="#" class="btn btn-primary text-uppercase my-2"
             >Add to cart</a
           >
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <p class="text-uppercase font-weight-light my-4">Product Details</p>
+          <p class="text-uppercase font-weight-light mt-4">Product Details</p>
+            <p>Text</p>
+            <p>Text</p>
+            <p>Text<p>
+
 
           <!--accordion start-->
-      
+
           <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
+            <div class="accordion-item rounded-0">
               <h2 class="accordion-header" id="headingOne">
                 <button
-                  class="accordion-button"
+                  class="accordion-button px-0 rounded-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
+                  <img
+                    width="24px"
+                    src="../icons/package-icon.svg"
+                    alt=""
+                    class="me-1"
+                  />
                   Shipping Information
                 </button>
               </h2>
@@ -234,29 +254,26 @@
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample"
               >
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                <div class="accordion-body px-0">
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button collapsed rounded-0 px-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
+                  <img
+                    width="24px"
+                    src="../icons/arrow-counter-clockwise-icon.svg"
+                    alt=""
+                    class="me-1"
+                  />
                   Free Returns
                 </button>
               </h2>
@@ -269,16 +286,12 @@
                 <div class="accordion-body"></div>
               </div>
             </div>
-            
-            <!--accordion end-->
 
-                </div>
-              </div>
-            </div>
+            <!--accordion end-->
           </div>
         </div>
 
-        <!--product details end-->
+        <!--product description end-->
       </div>
     </div>
 
