@@ -1,3 +1,39 @@
+.search-field .form-field {
+  position: relative
+  margin: 16px 0;
+}
+
+.search-field .input-text {
+  display: block;
+  width: fit-content;
+  height: 20px;
+  border-width: 0 0 1px 0;
+  border-color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400px;
+}
+
+.search-field .input-text:focus{
+  outline: none;
+}
+
+
+
+
+.search-field .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  cursor: text;
+  text-transform: capitalize;
+  transition: transform 0.2s ease-in-out;
+}
+
+
 .dropdown-menu.show {
   display: flex;
 }
