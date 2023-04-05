@@ -14,31 +14,47 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="../styles/bootstrap.css" />
     <link href="../styles/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/bootstrap.css" />
   </head>
   <body>
     <!--navbar start-->
 
     <nav class="navbar navbar-expand-lg position-relative">
-      <div class="container-fluid px-5">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="container-fluid">
+        <div class="lefties">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand d-lg-none" href="#">PREMGEAR</a>
+        </div>
+        <div class="righties">
+          <a href="#" class="nav-btns d-lg-none"
+            ><img width="20px" src="../icons/search-icon.svg" alt=""
+          /></a>
+          <a href="#" class="d-lg-none"
+            ><img
+              src="../icons/shopping-bag-icon.svg"
+              alt=""
+              width="20"
+              height="20"
+          /></a>
+        </div>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="sider">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown position-static">
                 <a
-                  class="nav-link dropdown-toggle text-uppercase"
+                  class="nav-link text-uppercase"
                   href="#"
                   id="navbarDropdownMenuLink1"
                   role="button"
@@ -52,9 +68,123 @@
                     class="dropdown-menu vw-100 mt-0"
                     aria-labelledby="navbarDropdownMenuLink1"
                   >
-                    <div class="container">
-                      <div class="h-100 d-flex align-items-start">
-                        <div class="px-4">
+                    <div class="container-flex">
+                      <div class="row">
+                        <div class="px-4 col-2">
+                          <ul class="ms-3 mt-3">
+                            <li>
+                              <div class="menu-label text-uppercase">
+                                In Water
+                              </div>
+                            </li>
+                            <div></div>
+                            <li>
+                              <a class="dropdown-item" href="#">Swimsuits</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Wetsuits</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="px-4 col-2">
+                          <ul class="mt-3">
+                            <li>
+                              <div class="menu-label text-uppercase">
+                                On bike
+                              </div>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Jerseys</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Base Layers</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Shorts & Tigths</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="px-4 col-2">
+                          <ul class="mt-3">
+                            <li>
+                              <div class="menu-label text-uppercase">
+                                On foot
+                              </div>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">T-Shirts</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Shorts</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Long Sleeve Tops</a
+                              >
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Trousers & Tigths</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="px-4 col-3">
+                          <ul class="mt-3">
+                            <li>
+                              <div class="menu-label text-uppercase">
+                                Brands
+                              </div>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#">Soar</a>
+                            </li>
+                            <li>
+                              <a class="dropdown-item" href="#"
+                                >Cafe du Cycliste</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div class="col-3">
+                          <div class="menu-pic mt-3">
+                            <img
+                              src="../images/men-mega-menu.webp"
+                              width="185"
+                              class="img-fluid my-2"
+                              alt="Nice product shot"
+                            />
+                          </div>
+                          <a href="#">Men's New Arrivals</a>
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown position-static">
+                <a
+                  class="nav-link text-uppercase"
+                  href="#"
+                  id="navbarDropdownMenuLink2"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Women
+                </a>
+                <div class="dropdown-wrapper">
+                  <ul
+                    class="dropdown-menu vw-100 mt-0"
+                    aria-labelledby="navbarDropdownMenuLink1"
+                  >
+                    <div class="container-flex">
+                      <div class="row">
+                        <div class="px-4 col-2">
                           <ul class="ms-3 mt-3">
                             <li>
                               <a class="dropdown-item text-uppercase" href="#"
@@ -70,7 +200,7 @@
                             </li>
                           </ul>
                         </div>
-                        <div class="px-4">
+                        <div class="px-4 col-2">
                           <ul class="mt-3">
                             <li>
                               <a class="dropdown-item text-uppercase" href="#"
@@ -90,7 +220,7 @@
                             </li>
                           </ul>
                         </div>
-                        <div class="px-4">
+                        <div class="px-4 col-2">
                           <ul class="mt-3">
                             <li>
                               <a class="dropdown-item text-uppercase" href="#"
@@ -115,7 +245,7 @@
                             </li>
                           </ul>
                         </div>
-                        <div class="px-4">
+                        <div class="px-4 col-3">
                           <ul class="mt-3">
                             <li>
                               <a class="dropdown-item text-uppercase" href="#"
@@ -132,116 +262,54 @@
                             </li>
                           </ul>
                         </div>
-                      </div>
-                      <div class="women-menu-pic mt-3">
-                        <img
-                          src="images/womens_menu.jpg"
-                          width="260"
-                          height="300"
-                          class="img-fluid"
-                          alt="Nice product shot"
-                        />
+
+                        <div class="col-3">
+                          <div class="menu-pic mt-3">
+                            <img
+                              src="../images/women-mega-menu.webp"
+                              width="185"
+                              class="img-fluid my-2"
+                              alt="Nice product shot"
+                            />
+                          </div>
+                          <a href="#">Women's New Arrivals</a>
+                        </div>
                       </div>
                     </div>
                   </ul>
                 </div>
               </li>
-
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-uppercase"
-                  href="#"
-                  id="navbarDropdownMenuLink2"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Women
-                </a>
-                <ul
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink2"
-                >
-                  <ul>
-                    <li>
-                      <a class="dropdown-item text-uppercase" href="#"
-                        >In Water</a
-                      >
-                    </li>
-                    <li><a class="dropdown-item" href="#">Swimsuits</a></li>
-                    <li><a class="dropdown-item" href="#">Wetsuits</a></li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a class="dropdown-item text-uppercase" href="#"
-                        >On bike</a
-                      >
-                    </li>
-                    <li><a class="dropdown-item" href="#">Jerseys</a></li>
-                    <li><a class="dropdown-item" href="#">Base Layers</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Shorts & Tigths</a>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a class="dropdown-item text-uppercase" href="#"
-                        >On foot</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">T-Shirts</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Shorts</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Long Sleeve Tops</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Trousers & Tigths</a>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <a class="dropdown-item text-uppercase" href="#"
-                        >Brands</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Soar</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Cafe dy Cycliste</a>
-                    </li>
-                  </ul>
-                </ul>
-              </li>
             </ul>
           </div>
           <div class="navbar">
-            <a class="navbar-brand" href="#">PREMGEAR</a>
+            <a class="navbar-brand d-none d-lg-block" href="#">PREMGEAR</a>
           </div>
           <div class="sider d-flex justify-content-end">
-            <div class="container">
+            <div class="container d-none d-lg-block">
               <div class="search-field row">
                 <div class="form-field col-lg-6">
-                  <input id="search" class="input-text" type="text" name="" />
+                  <input
+                    id="search"
+                    class="input-text"
+                    type="text"
+                    name=""
+                    placeholder="Search"
+                  />
                   <label for="search" class="label"></label>
                 </div>
               </div>
             </div>
-            <a href="#" class="nav-btns"
-              ><img width="20px" src="icons/search-icon.svg" alt=""
+            <a href="#" class="nav-btns d-flex align-items-center"
+              ><img width="20px" src="../icons/search-icon.svg" alt=""
             /></a>
-            <a href="#" class="nav-btns"
-              ><img width="20px" src="icons/favorite-icon.svg" alt=""
+            <a href="#" class="nav-btns d-flex align-items-center"
+              ><img width="20px" src="../icons/favorite-icon.svg" alt=""
             /></a>
-            <a href="#" class="nav-btns"
-              ><img width="20px" src="icons/account-icon.svg" alt=""
+            <a href="#" class="nav-btns d-flex align-items-center"
+              ><img width="20px" src="../icons/account-icon.svg" alt=""
             /></a>
-            <a href="#" class="nav-btns"
-              ><img width="20px" src="icons/shopping-bag-icon.svg" alt=""
+            <a href="#" class="nav-btns d-flex align-items-center"
+              ><img width="20px" src="../icons/shopping-bag-icon.svg" alt=""
             /></a>
           </div>
         </div>
@@ -363,58 +431,72 @@
 
         <!--product description start-->
 
-        <div class="col-md-5 ms-5">
-          <h1 class="font-weight-normal" style="font-size: 24px">
-            Product name
-          </h1>
+        <div class="col-md-4 ms-5">
+          <h1 class="font-weight-normal" style="font-size: 24px">Irma</h1>
           <h2 class="font-weight-normal text-uppercase" style="font-size: 16px">
             Cafe du Cycliste
           </h2>
-          <p>123€</p>
-          <p class="text-uppercase font-weight-light">Color</p>
-          <p>
-            <button class="btn btn-outline-secondary px-0 py-2 color-select">
-              <span class="color-pink">&nbsp;</span>
-            </button>
-            <button
-              class="btn btn-outline-secondary px-0 py-2 color-select color-active"
-            >
-              <span class="color-green">&nbsp;</span>
-            </button>
+          <p>200€</p>
+          <p class="text-uppercase font-weight-light" style="font-size: small">
+            Color
           </p>
-          <p class="text-uppercase font-weight-light">Size</p>
-          <p>
-            <button class="btn btn-outline-secondary">XS</button>
-            <button class="btn btn-outline-secondary">S</button>
-            <button class="btn btn-outline-secondary">M</button>
-            <button class="btn btn-outline-secondary">L</button>
-            <button class="btn btn-outline-secondary">XL</button>
+          <div class="btn-container">
+            <div class="color-btn-wrapper">
+              <div class="color-btn p-1">
+                <div class="color-green"></div>
+              </div>
+            </div>
+            <div class="color-btn-wrapper">
+              <div class="color-btn p-1">
+                <div class="color-pink"></div>
+              </div>
+            </div>
+          </div>
+          <p class="text-uppercase font-weight-light" style="font-size: small">
+            Size
           </p>
-          <a href="#" class="btn btn-primary text-uppercase my-2"
+          <p>
+            <button class="size-btn" style="font-size: small">XS</button>
+            <button class="size-btn" style="font-size: small">S</button>
+            <button class="size-btn" style="font-size: small">M</button>
+            <button class="size-btn" style="font-size: small">L</button>
+            <button class="size-btn" style="font-size: small">XL</button>
+          </p>
+          <a href="#" class="btn btn-outline-primary text-uppercase my-2"
             >Add to cart</a
           >
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p class="my-4" style="font-size: 14px">
+            Part of our Audax collection, Irma features a raft of long distance
+            details and a female specific fit. Odour resistant, fast drying and
+            exceptionally breathable, the merino performance blend protects when
+            the temperature drops but naturally regulates your core temperature
+            when it rises again.
           </p>
 
           <p class="text-uppercase font-weight-light mt-4">Product Details</p>
-          <p>Text</p>
-          <p>Text</p>
-          <p>Text</p>
-          <p>
-            <!--accordion start-->
-          </p>
+          <ul>
+            <li class="product-details" style="font-size: 14px">
+              35% merino | 40% polyamide | 25% polypropylene
+            </li>
+            <li class="product-details" style="font-size: 14px">
+              High performance super soft fabric
+            </li>
+            <li class="product-details" style="font-size: 14px">
+              Made in Europe
+            </li>
+          </ul>
+
+          <!--accordion start-->
 
           <div class="accordion" id="accordionExample">
-            <div class="accordion-item rounded-0">
+            <div class="accordion-item first-accordion rounded-0">
               <h2 class="accordion-header" id="headingOne">
                 <button
-                  class="accordion-button px-0 rounded-0"
+                  class="accordion-button collapsed px-0 rounded-0"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseOne"
                 >
                   <img
@@ -428,10 +510,11 @@
               </h2>
               <div
                 id="collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample"
               >
+                <p class="mt-2">Fast and free shipping worldwide.</p>
                 <div class="accordion-body px-0"></div>
               </div>
             </div>
@@ -460,6 +543,10 @@
                 aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample"
               >
+                <p class="mt-2">
+                  Free returns on all orders. If something isn’t quite right,
+                  you have 28 days to send it back to us.
+                </p>
                 <div class="accordion-body"></div>
               </div>
             </div>
@@ -489,28 +576,28 @@
     <section id="services">
       <div class="container">
         <div class="row text-center">
-          <div class="col-md-4 services">
+          <div class="col-12 col-lg-4 services">
             <img src="../icons/quality-icon.svg" class="service-img" />
             <h3>Quality</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Performance-enhancing gear that's designed to help you reach your
+              full potential.
             </p>
           </div>
-          <div class="col-md-4 services">
+          <div class="col-md-4 services col-12">
             <img src="../icons/shipping-icon.svg" class="service-img" />
             <h3>Free Shipping & Returns</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              The freedom to try out different products and styles risk-free,
+              without worrying about shipping or return costs.
             </p>
           </div>
-          <div class="col-md-4 services">
+          <div class="col-md-4 services col-12">
             <img src="../icons/sameday-dispatch-icon.svg" class="service-img" />
             <h3>Same Day Dispatch</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Fast and reliable shipping that gets your order to you as quickly
+              as possible.
             </p>
           </div>
         </div>
@@ -567,14 +654,14 @@
         </div>
         <div class="border-top"></div>
         <div class="row">
-          <div class="col px-5">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="footer-title">
-              <img src="../icons/logo.png" width="144" />
+              <h5 class="text-uppercase font-weight-normal">Premgear</h5>
             </div>
             <p><a href="#">About</a></p>
             <p><a href="#">Journal</a></p>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="footer-title">
               <h5 class="text-uppercase font-weight-normal">Services</h5>
             </div>
@@ -584,22 +671,24 @@
             <p><a href="#">Terms & Conditions</a></p>
             <p><a href="#">Privacy Policy</a></p>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="footer-title">
               <h5 class="text-uppercase font-weight-normal">Contact</h5>
             </div>
             <p>info@premgear.ee</p>
           </div>
-          <div class="col ms-1">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="footer-title">
               <h5 class="text-uppercase font-weight-normal">Follow us</h5>
             </div>
-            <a href="#" class="social-icon-btns"
-              ><img width="24px" src="icons/facebook-icon.svg" alt=""
-            /></a>
-            <a href="#" class="social-icon-btns"
-              ><img width="24px" src="icons/instagram-icon.svg" alt=""
-            /></a>
+            <div class="d-flex">
+              <a href="#" class="social-icon-btns"
+                ><img width="24px" src="../icons/facebook-icon.svg" alt=""
+              /></a>
+              <a href="#" class="social-icon-btns"
+                ><img width="24px" src="../icons/instagram-icon.svg" alt=""
+              /></a>
+            </div>
           </div>
         </div>
       </section>
